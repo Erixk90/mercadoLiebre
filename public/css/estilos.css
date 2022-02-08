@@ -11,20 +11,31 @@
 
 /* Tamaños tipograficos*/
 
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
 .titulares{
     font-size: 24px;
+        text-align: center;
 }
 
 .precios{
     font-size: 18px;
+    color: #666;
+    font-weight:bold ;
 }
 
 .descuentos{
     font-size: 16px;
+    font-weight: bold;
 }
 
 .descripciones{
     font-size: 16px;
+    color: #666;
+    font-style: italic;
+    font-weight: bold;
 }
 
 /*Secciones*/
@@ -37,7 +48,7 @@ header {
     margin: 30px;
 }
 
-.buscador{
+.search-bar{
     height: 25px;
     margin-left: 10px;
    
@@ -55,18 +66,20 @@ header {
       
 }
 
-.hipervinculo{
+.navlogbar {
     text-decoration:none;
     padding:0;
-    color: black;
+    font-style: normal;
+    color: #000000;
 }
 .burger-menu{
     background-color: #1259c3;
     color: white;
     padding: 10px 10px 10px 10px;
-    margin: 10% 50% 10% 40%;
-    border-radius: 15%;      
-}
+    margin: 10% 45% 10% 42%;
+    border-radius: 15%;     
+    text-align: center; 
+   }
 
 .contenedor-iconos{
     display: block;
@@ -76,13 +89,21 @@ header {
 .iconos{
     color:#1259c3;
     margin: 10px 10px 10px 10px;
-    height: 100px;
-    font-size: 5em;
+    font-size: 4em;
+    /* Si coloco 2em se ven muy pequeño los iconos*/
     display: block;
   }
 
 b {
     display: block;
+}
+
+article {
+    text-align: center;
+}
+
+.pie {
+    text-align: left;
 }
 
 
