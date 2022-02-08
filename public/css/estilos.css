@@ -1,0 +1,171 @@
+
+
+/* Paleta de colores
+--amarillo: #EAC926;
+--azul: #03264C;
+--celeste: #1259c3;
+--grisOscuro: #666;
+--grisClaro: #ebebeb;
+--verde: #39b54a;
+*/
+
+/* Tamaños tipograficos*/
+
+.titulares{
+    font-size: 24px;
+}
+
+.precios{
+    font-size: 18px;
+}
+
+.descuentos{
+    font-size: 16px;
+}
+
+.descripciones{
+    font-size: 16px;
+}
+
+/*Secciones*/
+
+header {
+    background-color: #EAC926;
+    
+}
+.logo{
+    margin: 30px;
+}
+
+.buscador{
+    height: 25px;
+    margin-left: 10px;
+   
+}
+
+.lupa {
+    background-color: white;
+    margin-left: 10px;
+    padding: 3px;
+    border-style: inherit ;
+}
+
+.titulo { 
+    text-align: center;
+      
+}
+
+.hipervinculo{
+    text-decoration:none;
+    padding:0;
+    color: black;
+}
+.burger-menu{
+    background-color: #1259c3;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    margin: 10% 50% 10% 40%;
+    border-radius: 15%;      
+}
+
+.contenedor-iconos{
+    display: block;
+    text-align: center;
+}
+
+.iconos{
+    color:#1259c3;
+    margin: 10px 10px 10px 10px;
+    height: 100px;
+    font-size: 5em;
+    display: block;
+  }
+
+b {
+    display: block;
+}
+
+
+
+
+   
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.imagenlogo{
+    padding: 20px 20px 5px 5px;
+    margin: 20px ;
+    width: 90%;
+    
+    }
+    
+    header {
+        background-color:#EAC926 ; 
+        font-family: 'Roboto', sans-serif;
+        background-attachment: initial;
+        padding-left: 10px;
+        margin: 5px;
+    } 
+    
+    .fas {
+        background-color: white;
+        padding: 3px;
+        margin-top: 2px;
+    }
+    
+    
+    .titulo{
+        display: block;
+    }
+    
+    .hipervinculo{
+        text-decoration: none;
+    }
+    
+    .burger-menu {
+        color: white;
+        background-color: blue;
+        align-items: center;
+        background-size: 10, 10;
+    
+    }
